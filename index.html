@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CAPTCHA by azadware - (Aasher-3689)</title>
+    <link rel="icon" href="./assets/icon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhammad Aasher">
+    <meta name="description" content="CAPTCHA by azadware. Github: Aasher-3689">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <form onsubmit="verify(event)">
+        <h1>
+            Verification!
+        </h1>
+        <p id="question">d + 1 = 9</p>
+        <div>
+            <input id="input" type="number" placeholder="d = ?" min="-9" max="9" required>
+            <button type="submit"><img src="./assets/send.svg"></button>
+        </div>
+    </form>
+    <footer>
+        <hr>
+        <p>&copy <a href="https://github.com/Aasher-3689" target="_blank">Aasher-3689</a> &bull; 
+           <a href="mailto:azadpanchi3689@gmail.com">Contact</a></p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
