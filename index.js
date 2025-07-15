@@ -32,8 +32,6 @@ async function verify(e) {
         question.style.border = correctDesign[1];
         await sleep(2000);
         window.open("https://aasher-3689.github.io/meritpoint", "_self");
-        input.disabled = "";
-        button.disabled = "";
     } else {
         input.value = "";
         question.style.backgroundColor = invalidDesign[0];
